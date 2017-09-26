@@ -9,7 +9,7 @@ node {
        slackSend(
           channel: '#openshift',
           color: 'good',
-          message: 'Super-NetOps Engineer is about to deploy an F5 Service Framework, Approval Needed!',
+          message: 'CREATED!  Jenkins file has been downloaded from git.  The iApp has been deployed to the F5 BIG-IP.',
           teamDomain: 'archer-demo',
           token: 'TEiSXYIrpraW3INc3irxvJL7'
           )
@@ -21,7 +21,7 @@ node {
        slackSend(
            channel: '#openshift',
            color: 'good',
-           message: 'Super-NetOps Engineer just approved a new F5 Service Framework, thats some serious Continuous Delivery!',
+           message: 'APPROVED!  The deletion of the iApp deployed onto F5 BIG-IP has been approved.',
            teamDomain: 'archer_demo',
            token: 'TEiSXYIrpraW3INc3irxvJL7'
            )
@@ -33,7 +33,7 @@ node {
        slackSend(
           channel: '#openshift',
           color: 'good',
-          message: 'Super-NetOps Engineer just added a Node to a Service, Production is Online!',
+          message: 'DELETED!  The iApp has been deleted from the F5 BIG-IP.',
           teamDomain: 'archer_demo',
           token: 'TEiSXYIrpraW3INc3irxvJL7'
           )
